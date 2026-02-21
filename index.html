@@ -162,6 +162,35 @@
       top: -6px;
     }
 
+.project-card {
+  display: block;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin: 20px 0;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+.project-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.project-card-desc {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
     .content {
       font-size: 1rem;
       color: #ddd;
@@ -289,12 +318,16 @@
       <h1>Projects</h1>
       <p>Articles, Events, and anything else.</p>
           <p>●   ●   ●</p>
-     <p>
-  <a href="https://articleone.cdlayer8.co.uk/" target="_blank" class="contact-link">
-    <strong>Defence Technology in an Integrated Battlespace</strong>
-  </a>
-</p>
-      <p>Collaboration with Cyberwomen groups C.I.C and BISI</p>
+    <a href="https://articleone.cdlayer8.co.uk/" target="_blank" class="project-card">
+  <div class="project-card-body">
+    <div class="project-card-title">
+      Defence Technology in an Integrated Battlespace
+    </div>
+    <div class="project-card-desc">
+      Collaboration with Cyberwomen groups C.I.C and BISI
+    </div>
+  </div>
+</a>
   
     </section>
   </div>
